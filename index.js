@@ -18,7 +18,7 @@ global.strong = config.strong
 
 // Home page
 app.get('/', (req, res) => {
-  res.render('index')
+  res.render('pages/Homepage.ejs')
 })
 
 // Login
